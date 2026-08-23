@@ -47,6 +47,6 @@ The response rendered the active Oracle database banner:
 
 Ensure all dynamic category filtering is handled using parameterized queries (prepared statements) to isolate user-supplied strings from the SQL execution engine.
 
-```
+
 
 

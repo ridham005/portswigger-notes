@@ -49,12 +49,4 @@ Ensure all dynamic category filtering is handled using parameterized queries (pr
 
 ```
 
----
 
-<ElicitationsGroup message="What would you like to do next?">
-<Elicitation label="Solve SQLi version extraction on MySQL and MSSQL" query="Walk me through solving PortSwigger SQL injection database version on MySQL and Microsoft" query_intent="CLICKABLE_SUGGESTION" />
-<Elicitation label="Determine column count using ORDER BY vs NULL" query="Explain how to determine UNION injection column count using ORDER BY vs NULL" query_intent="CLICKABLE_SUGGESTION" />
-<Elicitation label="Draft a LinkedIn post for Oracle SQL injection" query="Draft a LinkedIn post for solving Oracle SQL injection version extraction" query_intent="CLICKABLE_SUGGESTION" />
-</ElicitationsGroup>
-
-```

